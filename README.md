@@ -1,6 +1,6 @@
 # 水泥业务系统
 
-关键技术:openpyxl、sqlite、Mysql(为了简化，后面改用了sqlite)、pyqt5、sqlalchemy、pandas、numpy等技术。考虑过xlrd与xlwt，但是用起来没有openpyxl方面，所以这两个库只是用来简单的转变excel格式。
+关键技术:openpyxl、sqlite、Mysql(为了简化，后面改用了sqlite)、pyqt5、sqlalchemy、pandas、numpy等技术。考虑过xlrd与xlwt，但是用起来没有openpyxl方便，所以这两个库只是用来简单的转变excel格式。
 
 ## 导出表格
 
