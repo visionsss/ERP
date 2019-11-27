@@ -8,6 +8,7 @@ date: 2019/4/15 10:35
 
 
 def get_float(num, count):
+    num = float(num)
     if num == 0:
         return 0
     num = num * (10**(count + 1))
@@ -23,7 +24,7 @@ def get_float(num, count):
 
 
 if __name__ == "__main__":
-    n = get_float(37.625, 2)
+    n = get_float(12.3, 1)
     print(n)
     n = get_float(37.624, 2)
     print(n)

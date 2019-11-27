@@ -98,7 +98,7 @@ def insert_concrete_mix(path):
         MixRatioName = ws['G' + str(i)].value
         SlumpNum = str(ws['H' + str(i)].value).replace(' ', '')
         StandardDeviation = ws['I' + str(i)].value
-        ConcreteStrengh = get_float(ws['J' + str(i)].value, 1)
+        ConcreteStrengh = get_float(float(ws['J' + str(i)].value), 1)
         WaterNum = ws['K' + str(i)].value
         CementNum = ws['L' + str(i)].value
         FlyashNum = ws['M' + str(i)].value
@@ -109,7 +109,7 @@ def insert_concrete_mix(path):
         AdmixtureAmount = ws['R' + str(i)].value
         AdmixtureNum = get_float(ws['S' + str(i)].value, 1)
         SwellingNum = get_float(ws['T' + str(i)].value, 0)
-        # print(i , ws['U' + str(i)].value)
+        print(i , ws['U' + str(i)].value)
         MassDensity = get_float(ws['U' + str(i)].value, 0)
         InitialTime = ws['V' + str(i)].value
         FinalTime = ws['W' + str(i)].value

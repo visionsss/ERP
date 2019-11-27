@@ -558,6 +558,7 @@ class Ui(Ui_Form):
                 raise Exception('请选择文件夹')
             self.MixPoportionPath.setText(filePath)
             filename = self.MixPoportionPath.text()
+            print('ss')
             insert_concrete_mix(filename)
             QMessageBox.information(QWidget(), "成功", "配合比选用汇总表导入成功")
         except BaseException:
